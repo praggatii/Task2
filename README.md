@@ -20,5 +20,11 @@ Merges transformed data from all months into one consolidated file.
 Outputs result: 
 Saves the cleaned and combined data into a single Excel file.
 
+### Requirements
+Python 3.x
+### Required libraries:
+pandas
+openpyxl (for working with Excel files)
+
 
    
