@@ -26,5 +26,13 @@ Python 3.x
 pandas
 openpyxl (for working with Excel files)
 
+### Usage
+1. Clone this Repository
+```
+bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+
 
    
