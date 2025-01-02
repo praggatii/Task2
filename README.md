@@ -33,6 +33,11 @@ bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 ```
+2. Install Dependencies
+```
+bash
+pip install pandas openpyxl
+```
 
 
    
