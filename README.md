@@ -39,9 +39,8 @@ bash
 pip install pandas openpyxl
 ```
 3. File Setup
-
-Place the input Excel files in the appropriate directory.
-Update the file_paths variable in Task2.py with the file paths to your input Excel files.
+* Place the input Excel files in the appropriate directory.
+* Update the file_paths variable in Task2.py with the file paths to your input Excel files.
 
 
    
