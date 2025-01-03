@@ -1,6 +1,7 @@
 # Task2
 ## Daily Station Report Transformer
-This project provides a Python script to process and transform daily station reports for multiple months, consolidating them into a single output file for easier analysis.<br/>
+This project provides a Python script to process and transform daily station reports for multiple months, consolidating them into a single output file for easier analysis.
+---
 
 ### Description
 
@@ -16,12 +17,14 @@ The script performs the following tasks:
  * Reorders columns to ensure the "Month" column appears first. <br>
 4. Combines datasets: Merges transformed data from all months into one consolidated file. <br>
 5. Outputs result: Saves the cleaned and combined data into a single Excel file.
+---   
 
 ### Requirements
 Python 3.x
 ### Required libraries:
 pandas
 openpyxl (for working with Excel files)
+---
 
 ### Usage
 1. Clone this Repository
@@ -44,10 +47,11 @@ bash
 python Task2.py
 ```
 The script will process the data and save the output file as Combined_Station_Report.xlsx in the specified directory.
+---
 
 ### Input Format
 Excel files containing daily station report data. <br>
 The script expects a worksheet named "STATION".
-
+---
 
    
