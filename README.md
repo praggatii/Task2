@@ -38,6 +38,13 @@ pip install pandas openpyxl
 3. File Setup
 * Place the input Excel files in the appropriate directory.
 * Update the file_paths variable in Task2.py with the file paths to your input Excel files.
+4. Run the Script
+```  
+bash
+python Task2.py
+```
+The script will process the data and save the output file as Combined_Station_Report.xlsx in the specified directory.
+
 
 
    
