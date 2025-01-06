@@ -9,12 +9,12 @@ The script performs the following tasks:
 
 1. Loads data: Reads daily station report data from multiple Excel files, specifically the "STATION" worksheet.<br>
 2. Cleans data:
- * Drops specific rows (1st, 2nd, 3rd, and 12th) based on the task requirements.
- * Renames columns for clarity, including converting unnamed columns to unique placeholders.
- * Standardizes day column names as "Day 1", "Day 2", ..., "Day 31".<br>
+  * Drops specific rows (1st, 2nd, 3rd, and 12th) based on the task requirements.
+  * Renames columns for clarity, including converting unnamed columns to unique placeholders.
+  * Standardizes day column names as "Day 1", "Day 2", ..., "Day 31".
 3. Adds metadata:
- * Adds a "Month" column for identifying data from different files.
- * Reorders columns to ensure the "Month" column appears first. <br>
+  * Adds a "Month" column for identifying data from different files.
+  * Reorders columns to ensure the "Month" column appears first. 
 4. Combines datasets: Merges transformed data from all months into one consolidated file. <br>
 5. Outputs result: Saves the cleaned and combined data into a single Excel file.
   
@@ -39,8 +39,8 @@ bash
 pip install pandas openpyxl
 ```
 3. File Setup
-* Place the input Excel files in the appropriate directory.
-* Update the file_paths variable in Task2.py with the file paths to your input Excel files.
+ * Place the input Excel files in the appropriate directory.
+ * Update the file_paths variable in Task2.py with the file paths to your input Excel files.
 4. Run the Script
 ```  
 bash
