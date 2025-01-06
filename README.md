@@ -20,10 +20,10 @@ The script performs the following tasks:
   
 
 ## Requirements
-Python 3.x
-## Required libraries:
-pandas
-openpyxl (for working with Excel files)
+ * Python 3.x
+ * Required libraries:
+    * pandas
+    * openpyxl (for working with Excel files)
 
 
 ## Usage
