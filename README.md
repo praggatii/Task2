@@ -49,9 +49,15 @@ python Task2.py
 The script will process the data and save the output file as Combined_Station_Report.xlsx in the specified directory.
 
 
-### Input Format
+## Input Format
 Excel files containing daily station report data. <br>
 The script expects a worksheet named "STATION".
-***
+
+## Output
+* A single Excel file: Combined_Station_Report.xlsx
+* Columns include:
+   * Month: Indicates the source month for the data.
+   * Day 1, Day 2, ..., Day 31: Represents daily data columns.
+
 
    
