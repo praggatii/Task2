@@ -58,6 +58,12 @@ The script will process the data and save the output file as Combined_Station_Re
 * Columns include:
    * Month: Indicates the source month for the data.
    * Day 1, Day 2, ..., Day 31: Represents daily data columns.
+## Customizations
+If you need to:
+
+Modify input file paths: Update the file_paths list in the script.
+Change column transformations: Adjust the corresponding sections in the script.
+
 
 
    
