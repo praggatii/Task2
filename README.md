@@ -63,6 +63,9 @@ If you need to:
 * Modify input file paths: Update the file_paths list in the script.
 * Change column transformations: Adjust the corresponding sections in the script.
 
+## License
+This project is open source and available under the [MIT License]().
+
 
 
    
