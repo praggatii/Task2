@@ -76,7 +76,12 @@ for file, month in zip(file_paths, months):
     # Task 1: Drop the 1st, 2nd, 3rd, and 12th rows (0-based indexing)
     data = data.drop(index=[0, 1, 2, 11]).reset_index(drop=True)
 
-
+# File paths
+file_paths = [
+    "/home/priyapragati/Downloads/Daily station report-June -24.xlsx",
+    "/home/priyapragati/Downloads/Daily station report-May -24.xlsx",
+    "/home/priyapragati/Downloads/Daily station report-Nov -24.xlsx"
+]
 
 
 
