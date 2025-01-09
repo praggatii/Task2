@@ -53,6 +53,12 @@ final_data.to_excel(output_path, index=False)
 
 print(f"File saved at: {output_path}")
 
+# Save the combined result to a new Excel file
+output_path = "/home/priyapragati/Downloads/Combined_Station_Report.xlsx"
+final_data.to_excel(output_path, index=False)
+
+print(f"File saved at: {output_path}")
+
 
 
 
