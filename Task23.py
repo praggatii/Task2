@@ -59,6 +59,15 @@ final_data.to_excel(output_path, index=False)
 
 print(f"File saved at: {output_path}")
 
+# Loop over each file and apply the transformations
+for file, month in zip(file_paths, months):
+    # Load the "STATION" worksheet
+    data = pd.read_excel(file, sheet_name="STATION")
+    
+    # Task 1: Drop the 1st, 2nd, 3rd, and 12th rows (0-based indexing)
+    data = data.drop(index=[0, 1, 2, 11]).reset_index(drop=True)
+    
+
 
 
 
