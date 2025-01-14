@@ -1,3 +1,9 @@
 1. Load Specific Sheet ("STATION")
 Each file has a specific worksheet named "STATION, which is loaded into a pandas DataFrame for processing.
+------------------------------------------------------------------------------------------------------------
+2. Drop Specific Rows
+The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the dataset.
+
+These rows are likely irrelevant (e.g., header rows, footers, or unwanted metadata).
+After dropping, the index is reset to ensure continuous indexing.
 
