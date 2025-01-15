@@ -16,4 +16,10 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
   * New column names: "Day 1", "Day 2", ..., "Day 31".
   * This standardizes the column naming convention for data related to daily values.
   * Columns Temp_0, Temp_1, and Temp_2 are excluded from this renaming.
+---------------------------------------------------------------------------------------------------------------
+5. Add a "Month" Column
+* A new column named "Month" is added to each dataset.
+  * This column contains the name of the month corresponding to the file being processed (June, May, or November).
+  * This ensures data can be identified and grouped by month after merging.
+
 
