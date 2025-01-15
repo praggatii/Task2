@@ -21,5 +21,9 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
 * A new column named "Month" is added to each dataset.
   * This column contains the name of the month corresponding to the file being processed (June, May, or November).
   * This ensures data can be identified and grouped by month after merging.
+----------------------------------------------------------------------------------------------------------------
+6. Reorder Columns
+* The "Month" column is moved to the first position in the DataFrame.
+  * This step ensures the "Month" serves as a key identifier for each row, making the dataset more organized.
 
 
