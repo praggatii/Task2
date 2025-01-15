@@ -12,8 +12,8 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
    * These columns might initially contain headers or irrelevant titles.
 --------------------------------------------------------------------------------------------------------------
 4. Renaming Columns for Days
-Columns from index 3 onwards are renamed to represent the days of the month.
-New column names: "Day 1", "Day 2", ..., "Day 31".
-This standardizes the column naming convention for data related to daily values.
-Columns Temp_0, Temp_1, and Temp_2 are excluded from this renaming.
+* Columns from index 3 onwards are renamed to represent the days of the month.
+  * New column names: "Day 1", "Day 2", ..., "Day 31".
+  * This standardizes the column naming convention for data related to daily values.
+  * Columns Temp_0, Temp_1, and Temp_2 are excluded from this renaming.
 
