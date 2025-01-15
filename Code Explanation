@@ -34,5 +34,9 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
 8. Restore Blank Column Names
 * The temporary placeholders (Temp_0, Temp_1, Temp_2) are reverted back to blank column names.
   * This step restores the original formatting for specific columns.
+----------------------------------------------------------------------------------------------------------------
+9. Save the Final Output
+* The combined and transformed dataset is saved to a new Excel file named Combined_Station_Report.xlsx in the specified path.
+-------------------------------------------------------------------------------------------------------------------------------
 
 
