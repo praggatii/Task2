@@ -6,4 +6,14 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
 
  * These rows are likely irrelevant (e.g., header rows, footers, or unwanted metadata).
  * After dropping, the index is reset to ensure continuous indexing.
+-------------------------------------------------------------------------------------------------------------
+3. Temporary Placeholder for Column Names
+* The first three column names are temporarily renamed to placeholders (Temp_0, Temp_1, Temp_2) to prevent conflicts during further column renaming.
+   * These columns might initially contain headers or irrelevant titles.
+--------------------------------------------------------------------------------------------------------------
+4. Renaming Columns for Days
+Columns from index 3 onwards are renamed to represent the days of the month.
+New column names: "Day 1", "Day 2", ..., "Day 31".
+This standardizes the column naming convention for data related to daily values.
+Columns Temp_0, Temp_1, and Temp_2 are excluded from this renaming.
 
