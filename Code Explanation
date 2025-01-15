@@ -25,5 +25,10 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
 6. Reorder Columns
 * The "Month" column is moved to the first position in the DataFrame.
   * This step ensures the "Month" serves as a key identifier for each row, making the dataset more organized.
+----------------------------------------------------------------------------------------------------------------
+7. Combine Data from All Files
+* Data from all three Excel files is combined into a single dataset using pd.concat().
+  * This creates a unified DataFrame, which contains data for all months.
+  * Indexing is ignored to maintain continuity.
 
 
