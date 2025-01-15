@@ -30,5 +30,9 @@ The 1st, 2nd, 3rd, and 12th rows (using 0-based indexing) are dropped from the d
 * Data from all three Excel files is combined into a single dataset using pd.concat().
   * This creates a unified DataFrame, which contains data for all months.
   * Indexing is ignored to maintain continuity.
+----------------------------------------------------------------------------------------------------------------
+8. Restore Blank Column Names
+* The temporary placeholders (Temp_0, Temp_1, Temp_2) are reverted back to blank column names.
+  * This step restores the original formatting for specific columns.
 
 
